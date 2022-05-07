@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  background-color: blanchedalmond;
+}
+
+header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: auto;
+  cursor: pointer;
+  margin: 12px 24px;
+  padding: 8px 16px;
+  background-image: none;
+  color: blueviolet;
+  font-size: 2em;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.nav-bar-items {
+  list-style: none;
+  display: flex;
+}
+.nav-bar li {
+  padding: 16px 32px;
+  background-color: blueviolet;
+}
+
+.nav-bar-items li a {
+  font-weight: 900;
+  background-color: blueviolet;
+  color: aqua;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding: 0px 32px;
+}
+
+#profil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 140px;
+  margin: 0 1.5%;
+}
+
+#profil-picture {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.title-1 {
+  margin: 24px 0px;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: black;
+}
+
+.subtitle {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin: 24px 0;
+  color: black;
+}
+
+#bio {
+  margin-left: 96px;
+}
+
+.garis {
+  border: 1px solid black;
+  margin: 40px auto 16px;
+  width: 50px;
+}
+
+#portfolio {
+  padding: 0px 200px;
+}
